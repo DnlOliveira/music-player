@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import './SearchResults.css'
 
 class SearchResults extends Component {
   render() {
     return (
-      <h1>Search Results</h1>
+      <div className="Search-results">
+        <h1>Search Results</h1>
+      </div>
     );
   }
 }

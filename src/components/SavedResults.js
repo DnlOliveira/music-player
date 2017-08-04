@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import './SavedResults.css'
 
 class SavedResults extends Component {
   render() {
     return (
-      <h1>Saved</h1>
+      <div className="Saved-results">
+        <h1>Saved</h1>
+      </div>
     );
   }
 }
