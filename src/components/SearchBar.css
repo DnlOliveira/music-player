@@ -1,3 +1,31 @@
 .Search-bar {
-  border-style: solid;
+  /*border-style: solid;*/
+  padding: 5px;
+}
+#search-wrap{
+  /*border-style: solid;*/
+  width: 60%;
+  margin: auto;
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+#search{
+  /*border-style: solid;*/
+  padding: 2px;
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+}
+#search input{
+  width: 60%;
+}
+#search-wrap button{
+}
+#search input,
+span,
+button{
+  padding: 15px;
 }
